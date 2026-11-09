@@ -1,0 +1,11 @@
+REFLECTION ANSWERS
+
+1. The prediction target is the binary wine-quality category: GOOD QUALITY when quality is 6 or higher and NEEDS IMPROVEMENT when quality is below 6. The original quality column is excluded from the input features because it is the target. Including it as an input would cause target leakage.
+
+2. Recall for GOOD QUALITY is the proportion of truly good-quality samples correctly identified as GOOD QUALITY. The run obtained 0.77 recall for the GOOD QUALITY class, so about 77% of actual good-quality samples were correctly identified. Low recall could cause good wine samples to be unnecessarily classified as needing improvement.
+
+3. The model may perform differently on another producer's samples because producers, regions, grape varieties, production methods, measurement practices, and sample characteristics can differ from the training data.
+
+4. The prediction is preliminary because this is a classroom prototype trained on historical public data. It should not replace laboratory testing, sensory evaluation, food-safety procedures, or professional quality-control decisions.
+
+5. Reliability could be improved with more samples from multiple producers, regions, vintages, grape varieties, and production conditions, plus additional laboratory/sensory measurements and validation on new data.
