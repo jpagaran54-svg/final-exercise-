@@ -1,0 +1,16 @@
+{
+    "accuracy": 0.7720588235294118,
+    "precision_good_quality": 0.7928571428571428,
+    "recall_good_quality": 0.7708333333333334,
+    "f1_good_quality": 0.7816901408450704,
+    "confusion_matrix": [
+        [
+            99,
+            29
+        ],
+        [
+            33,
+            111
+        ]
+    ]
+}
